@@ -1,11 +1,6 @@
 import React from 'react';
-
-function App() {
+export default function Header() {
   return (
-    <div>
       <h1>title</h1>
-    </div>
   );
 }
-
-export default App;
