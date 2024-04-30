@@ -1,18 +1,15 @@
 import React from 'react';
-import {HashRouter} from 'react-router-dom';
-import './App.css';
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <div>
-        <HashRouter>
-            <App/>
-        </HashRouter>
-    </div>
-)
+import Navbar from './Navbar';
+import Home from './Home';
+
 function App() {
   return (
-    <>
-    </>
+    <div className='App'>
+      <Navbar />
+      <div className='content'>
+        <Home />
+      </div>
+    </div>
   );
 }
 
